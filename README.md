@@ -1,6 +1,6 @@
-# React State: Journal App with Favorite Button State
+# React State: Journal App
+
+Bulid during the bootcamt @ [neuefisch](https://github.com/neuefische) 
 
 ## Task
-
 - Make `isFavorite` a state variable.
-- This state variable needs to be toggled when the user clicks the favorite button.
