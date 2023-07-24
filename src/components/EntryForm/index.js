@@ -7,6 +7,12 @@ export default function EntryForm({ onAddEntry }) {
     const formData = new FormData(event.target); // get all input values as a "Map"
     const data = Object.fromEntries(formData);
     console.log(data);
+
+    const newEntry = {
+      motto: data.motto,
+      notes: data.notes,
+    };
+    onAddEntry(newEntry);
   }
 
   return (
